@@ -1,0 +1,16 @@
+{
+  "name": "gvtv",
+  "version": "2.0.0",
+  "description": "Node module with GVTV functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000"
+  },
+  "author": "Anton Koch",
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.36.0",
+    "async": "~0.9.0",
+    "exec": "~0.1.1"
+  }
+}

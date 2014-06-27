@@ -29,6 +29,6 @@ exports.startAddingGifs = function () {
 };
 
 exports.startWebServer = function(ip, port, documentsDir, callback) {
-    var webserver = require('./lib/webserver');
+    var webserver = require('./lib/http-server');
     webserver.start(ip, port, documentsDir, callback);
 };

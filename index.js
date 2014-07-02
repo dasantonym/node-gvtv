@@ -19,7 +19,7 @@ exports.initDb = function(callback) {
             callback(err);
             return;
         }
-        callback();
+        callback(null, db);
     });
 };
 

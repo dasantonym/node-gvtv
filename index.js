@@ -15,10 +15,7 @@ exports.getConfig = function () {
 
 exports.initDb = function(callback) {
     db.initDb(config, function (err) {
-        if (err) {
-            callback(err);
-            return;
-        }
+        if (err) return callback(err);
         callback(null, db);
     });
 };

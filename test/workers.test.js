@@ -5,7 +5,7 @@ describe('workers',function(){
         maxCacheSizeMB: 10,
         dbPath: path.join(__dirname, '..', 'db'),
         imgur: {
-            client_id: '381502632493e30' // imgur test will fail without an app id
+            client_id: '' // imgur test will fail without an app id
         }
     };
     var db = require(path.join(__dirname, '..', 'lib', 'db-file'));

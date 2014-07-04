@@ -5,7 +5,7 @@ exports.setConfig = function(externalConfig, callback) {
         config = externalConfig;
         callback();
     } else {
-        callback('config unchanged');
+        callback(new Error('config unchanged'));
     }
 };
 
